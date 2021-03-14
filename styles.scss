@@ -11,8 +11,8 @@ $weight-light: 400;
 
 //base
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body {
@@ -20,11 +20,13 @@ body {
     font-family: $font-main;
     font-weight: $weight-light;
     min-height: 100vh;
-    max-width: 100%;
+    max-width: 100vw;
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: -400px -500px, 700px 400px;
     padding: 10px;
+    display: grid;
+    place-items: center;
 }
 h2 {
     font-size: 1.1rem;
@@ -46,7 +48,6 @@ h6 {
     max-width: 320px;
     min-height: 0px;
     background-color: $color-card-bg;
-    margin: 100px auto;
     border-radius: 10px;
     box-shadow: 0px 0px 1px $color-font-light;
     &__top {
@@ -55,7 +56,6 @@ h6 {
             height: auto;
             border-radius: 10px 10px 0px 0px;
         }
-
     }
     &__profile {
         display: block;
@@ -89,12 +89,4 @@ h6 {
 }
 .card__data-item {
     text-align: center;
-}
-//footer
-.attribution { 
-    font-size: 0.8rem; 
-    text-align: center; 
-}
-.attribution a { 
-    color: $color-font-dark; 
 }
