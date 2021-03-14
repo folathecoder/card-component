@@ -33,13 +33,8 @@ h2 {
     color: $color-font-dark;
     font-weight: $weight-heavy;
 }
-h3 {
+p {
     font-size: 0.85rem;
-    color: $color-font-light;
-    font-weight: $weight-light;
-}
-h6 {
-    font-size: 0.65rem;
     color: $color-font-light;
     font-weight: $weight-light;
 }
@@ -73,7 +68,7 @@ h6 {
             margin-top: 10px;
             transform: translateY(-60px);
         }
-        h3 {
+        p {
             margin-top: 5px;
             transform: translateY(-60px);
         }
@@ -86,6 +81,16 @@ h6 {
         padding: 20px 0px;
         border-radius: 0px 0px 10px 10px;
     }
+}
+.profile-name-count {
+    font-size: 1.1rem;
+    color: $color-font-dark;
+    font-weight: $weight-heavy;
+}
+.profile-stat {
+    font-size: 0.65rem;
+    color: $color-font-light;
+    font-weight: $weight-light;
 }
 .card__data-item {
     text-align: center;

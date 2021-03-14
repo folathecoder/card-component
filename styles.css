@@ -26,14 +26,8 @@ h2 {
   font-weight: 700;
 }
 
-h3 {
+p {
   font-size: 0.85rem;
-  color: #6a6f81;
-  font-weight: 400;
-}
-
-h6 {
-  font-size: 0.65rem;
   color: #6a6f81;
   font-weight: 400;
 }
@@ -76,7 +70,7 @@ h6 {
           transform: translateY(-60px);
 }
 
-.card__profile h3 {
+.card__profile p {
   margin-top: 5px;
   -webkit-transform: translateY(-60px);
           transform: translateY(-60px);
@@ -92,6 +86,18 @@ h6 {
   margin-top: -30px;
   padding: 20px 0px;
   border-radius: 0px 0px 10px 10px;
+}
+
+.profile-name-count {
+  font-size: 1.1rem;
+  color: #2d3248;
+  font-weight: 700;
+}
+
+.profile-stat {
+  font-size: 0.65rem;
+  color: #6a6f81;
+  font-weight: 400;
 }
 
 .card__data-item {
