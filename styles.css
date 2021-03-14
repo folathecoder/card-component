@@ -11,11 +11,10 @@ body {
   font-weight: 400;
   min-height: 100vh;
   max-width: 100%;
-  background-image: url(images/bg-pattern-top.svg);
-  background-image: url(images/bg-pattern-bottom.svg);
-  background-position: top;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: -400px -500px, 700px 400px;
+  padding: 10px;
 }
 
 h2 {
@@ -98,11 +97,11 @@ h6 {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.8rem;
   text-align: center;
 }
 
 .attribution a {
-  color: #3e52a3;
+  color: #2d3248;
 }
 /*# sourceMappingURL=styles.css.map */
